@@ -1,0 +1,63 @@
+html, body{
+    height: 100%;
+}
+.wrap{
+    height: 100%;
+}
+.leftMenu{
+    width: 200px;
+    height: 100%;
+    background: #304b58;
+    float: left;
+}
+.logo {
+    padding: 20px;
+    background: #18313e;
+    color: #fff;
+}
+.logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+.info{
+    color: #fff;
+    padding: 10px 20px;
+}
+.info a{
+    color: #337ab7;
+}
+.list p{
+    color: #fff;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.list li{
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.list li.list-group-item-active{
+    background: #fff;
+    color: #666;
+}
+
+.rightCon{
+    width: calc(100% - 200px);
+    margin-left: 200px;
+    height: 100%;
+    background: #f5f5f5;
+}
+.rightCon .toggle-btn{
+    font-size: 25px;
+    color: #999;
+    line-height: 70px;
+    display: none;
+}
+
+
+.btn-yellow{
+    border-color: #f00;
+    color: #f00;
+    background: #fff;
+}

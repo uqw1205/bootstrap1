@@ -1,0 +1,9 @@
+.container-fluid .row div{
+    background: #999;
+    margin-bottom: 2px;
+    height: 100px;
+}
+.container-fluid .row div .row div{
+    height: 30px;
+
+}
